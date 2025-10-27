@@ -1,12 +1,4 @@
 {
-    "python.analysis.extraPaths": [
-        "/home/samantha/work/code_uv/sjasoft-utils/src",
-        "/home/samantha/work/code_uv/sjasoft-web/src",
-        "/home/samantha/work/code_uv/sjasoft-math/src",
-        "/home/samantha/work/code_uv/sjasoft-uop/src",
-        "/home/samantha/work/code_uv/sjasoft-uopclient/src",
-        "/home/samantha/work/code_uv/sjasoft-uopmeta/src"
-    ],
     "python.analysis.autoSearchPaths": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
@@ -16,11 +8,18 @@
     ],
     "python.analysis.exclude": [
         "**/.venv/**",
-        "**/node_modules/**"
+        "**/node_modules/**",
+        "**/anaconda3/**",
+        "**/miniconda3/**"
+    ],
+    "python.condaPath": "",
+    "python.venvPath": "${workspaceFolder}",
+    "python.venvFolders": [
+        ".venv"
     ],
     "python.analysis.diagnosticMode": "workspace",
     "python.analysis.typeshedPaths": [],
-    "python.defaultInterpreterPath": "/home/samantha/anaconda3/bin/python",
+    "python.defaultInterpreterPath": "/home/samantha/work/uop-workspace/.venv/bin/python",
     "python.formatting.provider": "autopep8",
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
