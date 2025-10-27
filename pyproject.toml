@@ -1,0 +1,32 @@
+[project]
+name = "uop-workspace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "pytest-cov>=6.0.0",
+    "pytest-mock>=3.13.0",
+    "pytest-timeout>=2.2.0",
+    "pytest-xdist>=3.5.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "packages/sjasoft-utils",
+    "packages/uop-app-pyside",
+    "packages/uop-client",
+    "packages/uop-core",
+    "packages/uop-db-mongo",
+    "packages/uop-db-sqlite",
+    "packages/uop-meta",
+    "packages/sjasoft-web",
+]
+
+[tool.uv.sources]
+sjasoft-utils = { workspace = true }
+sjasoft-web = { workspace = true }

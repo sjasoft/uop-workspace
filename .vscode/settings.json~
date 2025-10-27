@@ -1,0 +1,29 @@
+{
+  "python.analysis.extraPaths": [
+    "/home/samantha/work/code_uv/sjasoft-utils/src",
+    "/home/samantha/work/code_uv/sjasoft-web/src",
+    "/home/samantha/work/code_uv/sjasoft-math/src",
+    "/home/samantha/work/code_uv/sjasoft-uop/src",
+    "/home/samantha/work/code_uv/sjasoft-uopclient/src",
+    "/home/samantha/work/code_uv/sjasoft-uopmeta/src"
+  ],
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.include": [
+    "**/*.py"
+  ],
+  "python.analysis.exclude": [
+    "**/.venv/**",
+    "**/node_modules/**"
+  ],
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.stubPath": "./sjasoft-uopmeta/.venv/lib/python3.12/site-packages",
+  "python.analysis.typeshedPaths": [],
+  "python.defaultInterpreterPath": "/home/samantha/work/code_uv/sjasoft-uop/.venv/bin/python",
+  "jupyter.defaultKernel": "python3",
+  "jupyter.kernels.filter": [],
+  "jupyter.kernels.trusted": ["sjasoft-uop"]
+}
+
