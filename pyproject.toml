@@ -25,8 +25,15 @@ members = [
     "packages/uop-db-sqlite",
     "packages/uop-meta",
     "packages/sjasoft-web",
+    "packages/uop-db-neo4j",
 ]
 
 [tool.uv.sources]
 sjasoft-utils = { workspace = true }
 sjasoft-web = { workspace = true }
+uop-meta = { workspace = true }
+uop-core = { workspace = true }
+uop-client = { workspace = true }
+uop-db-mongo = { workspace = true }
+uop-db-sqlite = { workspace = true }
+uop-db-neo4j = { workspace = true }
