@@ -21,11 +21,13 @@ members = [
     "packages/uop-app-pyside",
     "packages/uop-client",
     "packages/uop-core",
+    "packages/uop-db-alchemy",
     "packages/uop-db-mongo",
     "packages/uop-db-sqlite",
     "packages/uop-meta",
     "packages/sjasoft-web",
     "packages/uop-db-neo4j",
+    "packages/uop-db-postgres",
 ]
 
 [tool.uv.sources]
@@ -34,6 +36,7 @@ sjasoft-web = { workspace = true }
 uop-meta = { workspace = true }
 uop-core = { workspace = true }
 uop-client = { workspace = true }
+uop-db-alchemy = { workspace = true }
 uop-db-mongo = { workspace = true }
 uop-db-sqlite = { workspace = true }
 uop-db-neo4j = { workspace = true }
