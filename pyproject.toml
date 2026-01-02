@@ -25,10 +25,18 @@ members = [
     "packages/uop-db-alchemy",
     "packages/uop-db-mongo",
     "packages/uop-db-sqlite",
+    "packages/uop-sql-base",
+    "packages/uop-sql-postgres",
+    "packages/uop-sql-mariadb",
+    "packages/uop-sql-sqlite",
     "packages/uop-meta",
     "packages/sjasoft-web",
     "packages/uop-db-neo4j",
     "packages/uop-db-postgres",
+    "packages/uop-db-sqlbase",
+    "packages/uop-sql-postgres/uop-sql-postgres",
+    "packages/uop-sql-mariadb/uop-sql-mariadb",
+    "packages/uop-sql-sqlite/uop-sql-sqlite",
 ]
 
 [tool.uv.sources]
@@ -38,6 +46,10 @@ uop-meta = { workspace = true }
 uop-core = { workspace = true }
 uop-client = { workspace = true }
 uop-db-alchemy = { workspace = true }
+uop-sql-base = { workspace = true }
+uop-sql-postgres = { workspace = true }
+uop-sql-mariadb = { workspace = true }
+uop-sql-sqlite = { workspace = true }
 uop-db-mongo = { workspace = true }
 uop-db-sqlite = { workspace = true }
 uop-db-neo4j = { workspace = true }
