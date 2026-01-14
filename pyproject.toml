@@ -14,6 +14,7 @@ dependencies = [
     "pytest-timeout>=2.2.0",
     "pytest-xdist>=3.5.0",
     "jupyterlab>=4.5.0",
+    "gnureadline>=8.3.3",
 ]
 
 [tool.uv.workspace]
@@ -34,9 +35,6 @@ members = [
     "packages/uop-db-neo4j",
     "packages/uop-db-postgres",
     "packages/uop-db-sqlbase",
-    "packages/uop-sql-postgres/uop-sql-postgres",
-    "packages/uop-sql-mariadb/uop-sql-mariadb",
-    "packages/uop-sql-sqlite/uop-sql-sqlite",
 ]
 
 [tool.uv.sources]
